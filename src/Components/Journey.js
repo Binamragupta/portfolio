@@ -32,11 +32,11 @@ const Journey = () => {
   const images=[img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17];
   const positions=['center','left1','left','right','right1','rest','rest','rest','rest','rest','rest','rest','rest','rest','rest','rest','rest','rest'];
   const imagevariant={
-    center:{x:'0%',scale:1,zIndex:5},
-    left1:{x:'-50%',scale:0.7,zIndex:2},
-    left:{x:'-90%',scale:0.5,zIndex:1},
-    right:{x:'90%',scale:0.5,zIndex:1},
-    right1:{x:'50%',scale:0.7,zIndex:2},
+    center:{x:'0%',scale:1.2,zIndex:5},
+    left1:{x:'-50%',scale:0.9,zIndex:2},
+    left:{x:'-80%',scale:0.7,zIndex:1},
+    right:{x:'80%',scale:0.7,zIndex:1},
+    right1:{x:'50%',scale:0.9,zIndex:2},
     rest:{opacity:0,zIndex:0}
   }
 
