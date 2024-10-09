@@ -32,7 +32,7 @@ h3{
 form{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
 }
 input,textarea{
     padding: 20px;
@@ -53,7 +53,7 @@ input,textarea{
     width: 100%;
     padding: 10px;
     flex-direction: column;
-
+    gap: 13px;
   }
   .textContainercon{
     gap:20px;
@@ -76,6 +76,9 @@ input,textarea{
   }
   h3{
     font-size: 16px;
+  }
+  form{
+    gap:10px;
   }
 }
 
