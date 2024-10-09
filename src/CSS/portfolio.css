@@ -62,7 +62,7 @@ p{
     /* position: sticky;
     padding-top: calc(100vh-100px); */
     font-size: 28px;
-    line-height: 12px;
+    line-height: 17px;
   }
   .wrapper{
     flex-direction: column;
