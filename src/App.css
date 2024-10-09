@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
+html{
+  scroll-snap-type: y mandatory; 
+  /* scroll-snap-type it helps in defining the snap behaviour of the site so if we are scrolling through section it snaps to the section and y is to tell direction in which snap need to occur during scroll and it is mandatory */
+  scroll-behavior: smooth;
+  /* the scroll and snapping to different section will be smooth */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM sans",sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    background-color: rgb(5, 38, 24);
+    color: rgb(239, 246, 209);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+  text-decoration: none;
+  color: inherit;
+  /* take color from parent here it is body */
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section{
+  height:100vh;
+  scroll-snap-align: center;
+  /* when the section will snap and come to viewport space it will take central space */
 }

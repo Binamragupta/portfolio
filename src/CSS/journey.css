@@ -1,0 +1,63 @@
+.journey{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    height: 90vh;
+}
+.imgjwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.imagecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+.imagej{
+    object-fit: contain;
+    height: 42%;
+    width: 40%;
+    position: absolute;
+}
+.buttonj{
+    border: none;
+    border-radius: 45%;
+    padding: 0.2rem;
+    margin-top: 27rem;
+    height: 5rem;
+    width: 5rem;
+    /* background-color: black; */
+    
+}
+.h1j{
+    padding-top: 1.6em;
+    text-align: center;
+}
+.textj{
+    font-size: 4rem;
+}
+@media  (max-width:738px){
+  .textj{
+    padding-top: 70px;
+   
+    font-size: 2rem;
+  }
+  .imgjwrapper{
+    padding-left: 80px;
+  }
+  .buttonj{
+    transform: translateX(-30px);
+  }
+  .journey{
+    height: 55vh;
+  }
+}
+@media (max-width:1024px) {
+  
+}
