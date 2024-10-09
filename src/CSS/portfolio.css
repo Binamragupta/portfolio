@@ -59,8 +59,8 @@ p{
 }
 @media  (max-width:738px){
   .progress{
-    position: sticky;
-    padding-top: calc(100vh-100px);
+    /* position: sticky;
+    padding-top: calc(100vh-100px); */
     font-size: 24px;
   }
   .wrapper{
