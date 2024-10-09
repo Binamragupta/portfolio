@@ -19,7 +19,6 @@ import img14 from "../Assets/nxtwave.png"
 import img15 from "../Assets/pwc.png"
 import img16 from "../Assets/pythonnptel.png"
 import img17 from "../Assets/udemy js.jpg"
-import { filter } from "framer-motion/client";
 
 
 const Journey = () => {
